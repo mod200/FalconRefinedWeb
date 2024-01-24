@@ -30,3 +30,21 @@ A sample from [falcon-refinedweb](https://huggingface.co/datasets/tiiuae/falcon-
 - more than 512 & less than 8192 gpt4 tiktoken tokens
 - `en` only (via fasttext-langdetect)
 - 1M samples
+
+
+```
+GPT-4 tiktoken token count:
+
+          token_count
+count  1000000.000000
+mean      1197.179246
+std        964.177338
+min        513.000000
+25%        653.000000
+50%        871.000000
+75%       1315.000000
+max       8191.000000
+
+
+Total count:	1197.18 M tokens
+```
